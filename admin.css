@@ -126,6 +126,40 @@
   margin-bottom: 8px;
 }
 
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.color-field {
+  margin-bottom: 0;
+}
+
+.color-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.color-input-wrap input[type="color"] {
+  width: 44px;
+  height: 36px;
+  padding: 2px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.color-input-wrap output {
+  font-size: 13px;
+  font-family: ui-monospace, monospace;
+  color: var(--color-text-muted);
+}
+
 .admin-save-bar {
   display: flex;
   gap: 10px;

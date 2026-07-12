@@ -1,5 +1,15 @@
 {
   "fontFamily": "system",
+  "colors": {
+    "primary": "#ff7a3d",
+    "primaryDark": "#e6631f",
+    "accent": "#2f5d50",
+    "bg": "#ffffff",
+    "bgAlt": "#f7f5f2",
+    "text": "#1c1c1e",
+    "textMuted": "#6b6b70",
+    "border": "#e6e3de"
+  },
   "site": {
     "pageTitle": "차곡차곡 AI 실전기 · 온라인 무료 설명회",
     "logo": "차곡차곡 AI 실전기",

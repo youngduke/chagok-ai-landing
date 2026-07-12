@@ -49,6 +49,24 @@ function applyFont(fontKey) {
   document.documentElement.style.setProperty("--font-sans", font.family);
 }
 
+const COLOR_VARS = {
+  primary: "--color-primary",
+  primaryDark: "--color-primary-dark",
+  accent: "--color-accent",
+  bg: "--color-bg",
+  bgAlt: "--color-bg-alt",
+  text: "--color-text",
+  textMuted: "--color-text-muted",
+  border: "--color-border",
+};
+
+function applyColors(colors) {
+  if (!colors) return;
+  Object.entries(COLOR_VARS).forEach(([key, cssVar]) => {
+    if (colors[key]) document.documentElement.style.setProperty(cssVar, colors[key]);
+  });
+}
+
 function getByPath(obj, path) {
   return path.split(".").reduce((acc, key) => (acc == null ? acc : acc[key]), obj);
 }
@@ -110,6 +128,7 @@ async function initContent() {
     const res = await fetch("content.json", { cache: "no-store" });
     const data = await res.json();
     applyFont(data.fontFamily);
+    applyColors(data.colors);
     bindText(data);
     renderWhoList(data.who?.items);
     renderAgendaList(data.agenda?.items);

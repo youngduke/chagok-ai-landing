@@ -69,6 +69,21 @@ function initFontSelect() {
   select.addEventListener("change", () => applyFont(select.value));
 }
 
+function refreshColorOutputs() {
+  document.querySelectorAll('.color-input-wrap input[type="color"]').forEach((el) => {
+    el.nextElementSibling.textContent = el.value;
+  });
+}
+
+function initColorInputs() {
+  document.querySelectorAll('.color-input-wrap input[type="color"]').forEach((el) => {
+    el.addEventListener("input", () => {
+      el.nextElementSibling.textContent = el.value;
+      applyColors(collectFormData().colors);
+    });
+  });
+}
+
 function addWhoRow(value = "") {
   const container = document.getElementById("who-editor");
   const row = document.createElement("div");
@@ -108,6 +123,8 @@ function populateForm(data) {
   });
   document.getElementById("font-select").value = data.fontFamily || "system";
   applyFont(data.fontFamily);
+  applyColors(data.colors);
+  refreshColorOutputs();
 
   document.getElementById("who-editor").innerHTML = "";
   (data.who?.items || []).forEach((item) => addWhoRow(item));
@@ -180,6 +197,7 @@ function updateConnectedUI(connected) {
 
 document.addEventListener("DOMContentLoaded", () => {
   initFontSelect();
+  initColorInputs();
 
   document.querySelector('[data-add="who"]').addEventListener("click", () => addWhoRow());
   document.querySelector('[data-add="agenda"]').addEventListener("click", () => addAgendaRow());
