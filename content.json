@@ -8,7 +8,8 @@
     "text": "#0f0c18",
     "textMuted": "#142603",
     "border": "#dfe7e5",
-    "buttonText": "#ffffff"
+    "buttonText": "#ffffff",
+    "cardBg": "#ffffff"
   },
   "sizes": {
     "eyebrow": 14,
@@ -18,7 +19,8 @@
     "sectionTitle": 13,
     "sectionHeading": 24,
     "body": 15,
-    "button": 16
+    "button": 16,
+    "eventInfo": 14
   },
   "site": {
     "pageTitle": "YES CLUB",

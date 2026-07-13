@@ -59,6 +59,7 @@ const COLOR_VARS = {
   textMuted: "--color-text-muted",
   border: "--color-border",
   buttonText: "--color-button-text",
+  cardBg: "--color-card-bg",
 };
 
 function applyColors(colors) {
@@ -77,6 +78,7 @@ const SIZE_VARS = {
   sectionHeading: "--size-section-heading",
   body: "--size-body",
   button: "--size-button",
+  eventInfo: "--size-event-info",
 };
 
 function applySizes(sizes) {
