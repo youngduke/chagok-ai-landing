@@ -88,6 +88,18 @@ function applySizes(sizes) {
   });
 }
 
+function applyBackgroundImage(url) {
+  const hero = document.querySelector(".hero");
+  if (!hero) return;
+  if (url) {
+    hero.style.setProperty("--bg-image", `url('${url}')`);
+    hero.classList.add("has-bg-image");
+  } else {
+    hero.style.removeProperty("--bg-image");
+    hero.classList.remove("has-bg-image");
+  }
+}
+
 function getByPath(obj, path) {
   return path.split(".").reduce((acc, key) => (acc == null ? acc : acc[key]), obj);
 }
@@ -151,6 +163,7 @@ async function initContent() {
     applyFont(data.fontFamily);
     applyColors(data.colors);
     applySizes(data.sizes);
+    applyBackgroundImage(data.site?.backgroundImage);
     bindText(data);
     renderWhoList(data.who?.items);
     renderAgendaList(data.agenda?.items);

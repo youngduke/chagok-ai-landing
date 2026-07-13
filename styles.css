@@ -46,6 +46,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* 배경 사진은 히어로 영역에만 적용한다.
+   body 전체에 적용하면 페이지 전체 높이만큼 이미지를 늘려야 해서
+   매우 무거워지고 스크롤이 버벅인다. */
+.hero.has-bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;

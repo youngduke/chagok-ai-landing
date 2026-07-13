@@ -25,7 +25,8 @@
   "site": {
     "pageTitle": "YES CLUB",
     "logo": " ",
-    "navCta": "Join for FREE"
+    "navCta": "Join for FREE",
+    "backgroundImage": "bg-hero.jpg"
   },
   "hero": {
     "eyebrow": "Let's make our lives better even the best",
