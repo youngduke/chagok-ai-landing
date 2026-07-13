@@ -12,15 +12,15 @@
     "cardBg": "#ffffff"
   },
   "sizes": {
-    "eyebrow": 14,
-    "heroTitle": 36,
-    "heroCopy": 19,
-    "heroSub": 15,
-    "sectionTitle": 13,
-    "sectionHeading": 24,
-    "body": 15,
-    "button": 16,
-    "eventInfo": 14
+    "eyebrow": "20",
+    "heroTitle": "36",
+    "heroCopy": "20",
+    "heroSub": "20",
+    "eventInfo": "15",
+    "sectionTitle": "15",
+    "sectionHeading": "25",
+    "body": "18",
+    "button": "20"
   },
   "site": {
     "pageTitle": "YES CLUB",
@@ -28,7 +28,7 @@
     "navCta": "Join for FREE"
   },
   "hero": {
-    "eyebrow": "Let's make our lives better and the best",
+    "eyebrow": "Let's make our lives better even the best",
     "tagline": " ",
     "titleLine1": "I'm the owner of my life",
     "titleHighlight": "Your daily management shapes your life",
@@ -43,7 +43,7 @@
     "sectionTitle": "",
     "sectionSubtitle": "이런 분들 환영합니다",
     "items": [
-      "경영자가 되기 원하는 분",
+      "자신이 경영자라는 인식이 있는 분",
       "자기 인생의 주인으로 살고 싶은 분",
       "아름다운 사람이 되고 싶은 분",
       "뇌가 작동할 때 까지 배움을 지속하고 싶은 분",
@@ -56,18 +56,18 @@
     "items": [
       {
         "title": "딴딴 패턴 영어 학습",
-        "desc": "패턴을 익히면 스피킹이 풍성해집니다"
+        "desc": "패턴을 익히면 스피킹이 풍성해진다"
       },
       {
         "title": "경영 철학 학습",
-        "desc": "경영이 바라는 인생 창조의 필수 도구입니다"
+        "desc": "경영이란 바라는 인생 창조의 필수 과정이다"
       },
       {
-        "title": "3M 경영 실습",
-        "desc": "몸, 마음, 머니로부터의 자유인이 되는 길"
+        "title": "3M 경영 실천 피드백",
+        "desc": "몸, 마음, 머니로부터의 자유인이 되는 길이다"
       },
       {
-        "title": "생산적인 인생 경영",
+        "title": "생산적인 인생 경영 노하우 공유",
         "desc": "경영이란 결국 생산성 향상을 위한 작업이다"
       },
       {
