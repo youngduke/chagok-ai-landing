@@ -2,7 +2,7 @@
 // FONT_OPTIONS, getByPath 는 content-loader.js에 정의되어 있다.
 
 const REPO_OWNER = "youngduke";
-const REPO_NAME = "chagok-ai-landing";
+const REPO_NAME = "yes-ai-landing";
 const BRANCH = "main";
 const CONTENT_PATH = "content.json";
 const TOKEN_KEY = "chagok_admin_gh_token";
@@ -43,8 +43,8 @@ function setByPath(obj, path, value) {
 
 const STATUS_HINTS = {
   401: "토큰이 유효하지 않습니다. 토큰이 만료되었거나 잘못 복사되었을 수 있어요. 새로 발급해서 다시 연결해주세요.",
-  403: "토큰에 이 저장소 쓰기 권한이 없습니다. 토큰 발급 시 Repository access에서 chagok-ai-landing을 선택하고, Permissions > Contents를 Read and write로 설정했는지 확인해주세요.",
-  404: "저장소나 파일을 찾을 수 없습니다. 토큰의 Repository access에 chagok-ai-landing이 포함되어 있는지 확인해주세요.",
+  403: "토큰에 이 저장소 쓰기 권한이 없습니다. 토큰 발급 시 Repository access에서 yes-ai-landing을 선택하고, Permissions > Contents를 Read and write로 설정했는지 확인해주세요.",
+  404: "저장소나 파일을 찾을 수 없습니다. 토큰의 Repository access에 yes-ai-landing이 포함되어 있는지 확인해주세요.",
   409: "다른 곳에서 먼저 저장되어 내용이 어긋났습니다. '저장된 내용 다시 불러오기'를 누른 뒤 다시 수정해서 저장해주세요.",
   422: "요청 데이터 형식에 문제가 있습니다.",
 };
