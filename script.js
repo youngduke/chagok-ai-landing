@@ -67,10 +67,12 @@ form.addEventListener("submit", async (e) => {
 
   try {
     if (SUBMIT_ENDPOINT) {
-      // Content-Type을 text/plain으로 보내야 Apps Script 웹앱에서
-      // CORS preflight(OPTIONS) 없이 바로 doPost로 받을 수 있습니다.
+      // Apps Script 웹앱 응답에는 CORS 헤더가 없어 브라우저가 응답을 읽지 못하므로
+      // no-cors로 전송한다. 요청 자체는 정상 도달해 시트에 기록되지만,
+      // 응답 내용은 확인할 수 없다(opaque response).
       await fetch(SUBMIT_ENDPOINT, {
         method: "POST",
+        mode: "no-cors",
         headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(payload),
       });
