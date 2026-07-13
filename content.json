@@ -5,9 +5,9 @@
     "accent": "#2f5d50",
     "bg": "#2f83a7",
     "bgAlt": "#17637d",
-    "text": "#1c1c1e",
-    "textMuted": "#6b6b70",
-    "border": "#e6e3de"
+    "text": "#0f0c18",
+    "textMuted": "#142603",
+    "border": "#dfe7e5"
   },
   "site": {
     "pageTitle": "YES CLUB",
@@ -19,74 +19,65 @@
     "tagline": " ",
     "titleLine1": "I'm the owner of my life",
     "titleHighlight": "Your daily management shapes your life",
-    "copy": "AI, 이제 '아는 것'을 넘어 '내 사업에 써먹는 것'으로",
-    "sub": "원리는 사람이 배우고, 실행은 AI로 빠르게 — 진짜 결과물을 만드는 6주.",
-    "eventDate": "7월 28일 (화) 오후 8시",
+    "copy": "영어와 경영으로 '아름다운 사람'이 되자",
+    "sub": " ",
+    "eventDate": "매주 일요일 오전 7시",
     "eventMode": "온라인 Zoom",
-    "eventDuration": "약 60분 (Q&A 포함)",
-    "ctaText": "무료 설명회 신청하기"
+    "eventDuration": "60분",
+    "ctaText": "멤버 신청하기"
   },
   "who": {
-    "sectionTitle": "Who is this for",
-    "sectionSubtitle": "이런 분들께 추천합니다",
+    "sectionTitle": "",
+    "sectionSubtitle": "이런 분들 환영합니다",
     "items": [
-      "AI를 자주 쓰지만, '내 일에 어떻게 써야 할지' 막막한 분",
-      "업무 자동화는 궁금하지만, 복잡한 자동화 툴은 부담스러운 분",
-      "배운 AI를 '실제 결과물'로 만들어 바로 써먹고 싶은 분",
-      "고객을 더 깊이 이해해, 다시 찾고 추천하게 만들고 싶은 분",
-      "광고비 없이 '고객경험'으로 차별화하고 싶은 분",
-      "신규 고객을 더 만들고 싶은데 무엇부터 손대야 할지 막막한 분"
+      "경영자가 되기 원하는 분",
+      "자기 인생의 주인으로 살고 싶은 분",
+      "아름다운 사람이 되고 싶은 분",
+      "뇌가 작동할 때 까지 배움을 지속하고 싶은 분",
+      "관계의 불편과 고통에서 벗어나고 싶은 분"
     ]
   },
   "agenda": {
-    "sectionTitle": "Agenda",
+    "sectionTitle": "",
     "sectionSubtitle": "60분 동안 이런 내용을 다룹니다",
     "items": [
       {
-        "title": "왜 지금 'AI 경쟁력'인가?",
-        "desc": "AI를 일에 녹인 사업자와 아닌 사업자의 격차 — 왜 지금 시작해야 하는지"
+        "title": "딴딴 패턴 영어 학습",
+        "desc": ""
       },
       {
-        "title": "설문으로 본 우리 200명",
-        "desc": "대부분 이미 AI를 쓰지만, 정작 '내 사업 적용'에서 막히는 이유"
+        "title": "경영 철학 학습",
+        "desc": ""
       },
       {
-        "title": "6주 커리큘럼 어떻게 구성되는가?",
-        "desc": "고객이 알고·믿고·구매하고·다시 찾는 과정마다, AI로 만들 실전 결과물"
+        "title": "3M 경영 실습",
+        "desc": ""
       },
       {
-        "title": "나에게 맞는 프로그램일까?",
-        "desc": "업종·규모별 적합성 — 내 사업에 바로 쓸 수 있는지 확인"
+        "title": "생산적인 인생 경영",
+        "desc": ""
       },
       {
-        "title": "내 AI 수준으로 따라갈 수 있을까?",
-        "desc": "초급~중급 모두 대상. 버디·보충 영상·빈칸 템플릿으로 함께"
-      },
-      {
-        "title": "업무 자동화는 어디까지?",
-        "desc": "복붙 반자동 루틴부터 부분 자동 파이프라인까지, 현실적인 수준 안내"
-      },
-      {
-        "title": "현장 Q&A",
-        "desc": "궁금한 점을 직접 질문하고 답을 듣는 시간"
+        "title": "서로 묻고 답하기",
+        "desc": ""
       }
     ]
   },
   "diff": {
-    "sectionTitle": "What makes it different",
-    "copy": "'AI 버튼 누르는 법'을 알려주는 수업이 아닙니다. 고객이 다시 찾고, 매출로 이어지게 만드는 방법을 배우고, 그걸 AI로 빠르게 실행합니다.",
-    "highlight": "원리는 사람이 배우고, 실행은 AI로 빠르게."
+    "sectionTitle": "Better Life,  Better People",
+    "copy": " ",
+    "highlight": " "
   },
   "apply": {
-    "sectionTitle": "지금 신청하세요",
-    "sectionSubtitle": "선착순 사전 신청 · 참가비 무료",
-    "submitText": "무료 설명회 신청 완료하기",
-    "note": "신청 내용은 담당자 이메일로 안전하게 전달됩니다."
+    "sectionTitle": " ",
+    "sectionSubtitle": " ",
+    "submitText": " ",
+    "note": " "
   },
   "footer": {
-    "title": "차곡차곡 AI 실전기",
-    "manager": "위대한 경영자 허소미",
-    "phone": "010-5502-7553"
+    "title": " ",
+    "manager": "Dr.Young",
+    "phone": "010-3439-0294"
   },
-  "fontFamily": "gowun-dodum"
+  "fontFamily": "noto-sans-kr"
 }
